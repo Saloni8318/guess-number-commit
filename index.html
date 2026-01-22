@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,13 @@
     <title>Number Guess Game</title>
     <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    
-    <link rel="stylesheet" href="index.css"/>
+
+    <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
     <div id="section1" class="container text-center mt-5">
         <button class="btn btn-warning btn-lg" onclick="generate_number_btn_click()">Generate Number</button>
@@ -21,31 +24,27 @@
         <div class="row mt-5">
             <div class="col-12 text-center">
                 <img src="https://media.tenor.com/cR8ujewMmSgAAAAC/question-lignon.gif" alt="">
-                <p class="text-danger">Guess the number between 1to6**</p>
+                <p class="text-danger">Guess the number which comes between 1to6**</p>
                 <div class="foem-group w-25 mx-auto">
-                    <input id="field" type="text" placeholder="Enter here" class="form-control"
+                    <input id="field" type="text" placeholder="Enter here" class="form-control" </div>
+                    <button class="btn btn-primary btn-sm mt-4" onclick="check_guess_number()">
+                        check
+                    </button>
                 </div>
-                <button class="btn btn-primary btn-sm mt-4" onclick="check_number()">
-                  check  
-                </button>
             </div>
         </div>
-    </div>
 
 
-<div class="container text-center" id="section3">
-    <img
-    class="img-fluid"
-    style="width:250px;"
-    
-   src="https://thumbs.gfycat.com/SecondTartCygnet-size_restricted.gif" alt=""/>
-    <h3>generating Number</h3>
-</div>
+        <div class="container text-center" id="section3">
+            <img class="img-fluid" style="width:250px;"
+                src="https://thumbs.gfycat.com/SecondTartCygnet-size_restricted.gif" alt="" />
+            <h3>generating Number</h3>
+        </div>
 
 
 
 
-    <script src="index.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
